@@ -1,4 +1,4 @@
-// 'use strict'
+// 'use strict';
 answer="";
 answer2="";
 answer3="";
@@ -55,15 +55,3 @@ answer5="";
 
 alert(`Q1  : ${answer} \nQ2  : ${answer2} \nQ3  : ${answer3} \nQ4  : ${answer4} \nQ5  : ${answer5} \n`);
 
-// Do Mohammad like chocolate milkshakes?
-// Do Mohammad like N?
-// Do Mohammad like travel?
-// Do Mohammad like photography?
-// Do Mohammad like games?
-
-
-
-// Can Mohammad make hemself disappear?
-// Have Mohammad ever hit one of his friends?
-// Do Mohammad know how to play at least one musical instrument?
-// is Mohammad doing what he always wanted to do in his life?
