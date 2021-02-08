@@ -5,50 +5,60 @@ answer3="";
 answer4="";
 answer5="";
 
-    answer =prompt('is burger mohammad  FAVORITE FOOD, Y OR N ?').toUpperCase();
+    answer =prompt('Does Mohammad like  coffee, Y OR N ?').toUpperCase();
     if(answer =="Y"){
+        console.log("Q1 correct");
         answer="correct"
     }
     else{
+        console.log("Q1 wrong answer");
         answer="wrong answer"
 
     }
 
 
-    answer2 =prompt(' Do Mohammad like chocolate milkshakes?, Y OR N ?').toUpperCase();
+    answer2 =prompt(' Does Mohammad like chocolate milkshakes?, Y OR N ?').toUpperCase();
     if(answer2 =="Y"){
+        console.log("Q2 correct");
         answer2="correct";
     }
     else{
+        console.log("Q2 wrong answer");
         answer2="wrong answer";
     }
 
 
-    answer3 =prompt('Do Mohammad like travel?, Y OR N ?').toUpperCase();
+    answer3 =prompt('Does Mohammad like travel?, Y OR N ?').toUpperCase();
     if(answer3 =="Y"){
+        console.log("Q3 correct");
         answer3=" correct ";
 
     }
     else{
+        console.log("Q3 wrong answer");
         answer3="wrong answer"
     }
 
     answer4 =prompt('Can Mohammad make hemself disappear?, Y OR N ?').toUpperCase();
-    if(answer4 =="Y"){
+    if(answer4 =="Y"){        
+        console.log("Q4 wrong answer");
         answer4="wrong answer"
 
     }
-    else{
+    else{        
+        console.log("Q4 correct");
         answer4="correct"
     }
 
 
     answer5 =prompt('Do Mohammad like games?, Y OR N ?').toUpperCase();
     if(answer5 =="Y"){
+        console.log("Q5 correct");
         answer5="correct"
 
     }
     else{
+        console.log("Q5 wrong answer");
         answer5="wrong answer"
     }
 

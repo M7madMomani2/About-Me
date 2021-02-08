@@ -8,9 +8,9 @@ font-family: Cursive;
 opacity: 0.92;
 } 
 header img {
-banswer-radius: 50%;
+border-radius: 50%;
 width: 200px;
-banswer: 2px;
+border: 2px;
 }
 header h1{
   float: right;
@@ -27,12 +27,12 @@ header h1{
 
   table {
     font-family: arial, sans-serif;
-    banswer-collapse: collapse;
+    border-collapse: collapse;
     width: 100%;
   }
   
   td, th {
-    banswer: 1px solid #000000;
+    border: 1px solid #000000;
     text-align: left;
     padding: 8px;
     font-weight: bold;
