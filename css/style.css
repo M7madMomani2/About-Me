@@ -1,0 +1,52 @@
+
+  
+html{  background: url("https://cdn.pixabay.com/photo/2014/06/16/23/40/grey-370125_960_720.png");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100%;
+font-family: Cursive;
+opacity: 0.92;
+} 
+header img {
+banswer-radius: 50%;
+width: 200px;
+banswer: 2px;
+}
+header h1{
+  float: right;
+  margin-top:5%;
+  margin-right:50%;
+  
+}
+.progress-container {
+    width: 100%;
+    height: 10px;
+    background: rgb(2, 85, 110);
+  }
+
+
+  table {
+    font-family: arial, sans-serif;
+    banswer-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    banswer: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+    font-weight: bold;
+
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+    color: black;
+  }
+  ul.list1 {
+    list-style-type: circle;
+    font-size: x-large;
+    font-weight: bold;
+
+
+  }
