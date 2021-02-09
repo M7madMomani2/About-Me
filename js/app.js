@@ -1,11 +1,18 @@
-// 'use strict';
-answer="";
-answer2="";
-answer3="";
-answer4="";
-answer5="";
+'use strict';
+let answer="";
+let answer2="";
+let answer3="";
+let answer4="";
+let answer5="";
+let name1 ="";
+name1 =prompt('what\'s your name ?').toUpperCase();
+ 
 
-    answer =prompt('Does Mohammad like  coffee, Y OR N ?').toUpperCase();
+
+
+
+
+answer =prompt('Does Mohammad like  coffee, Y OR N ?').toUpperCase();
     if(answer =="Y"){
         console.log("Q1 correct");
         answer="correct"
@@ -62,6 +69,5 @@ answer5="";
         answer5="wrong answer"
     }
 
-
-alert(`Q1  : ${answer} \nQ2  : ${answer2} \nQ3  : ${answer3} \nQ4  : ${answer4} \nQ5  : ${answer5} \n`);
+alert(`Hello  ${name1} \n\n\nQ1  : ${answer} \nQ2  : ${answer2} \nQ3  : ${answer3} \nQ4  : ${answer4} \nQ5  : ${answer5} \n`);
 
