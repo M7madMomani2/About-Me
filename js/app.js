@@ -112,3 +112,4 @@ alert(`hello`);
 alert(`Hello  ${name1} \n\n\nQ1  : ${answer} \nQ2  : ${answer2} \nQ3  : ${answer3} \nQ4  : ${answer4} \nQ5  : ${answer5} \n`);
 alert(`correct answer =   ${count} \n\nwronge answer  : ${7-count} \n`);
 
+000
