@@ -14,6 +14,7 @@ let flage1 = false;
 let count7=0;
 let count6=0;
 
+// functions add by reem
 
 function getName(){
     name1 =prompt('what\'s your name ?').toUpperCase();
