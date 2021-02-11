@@ -7,19 +7,20 @@ let answer5="";
 let answer6="";
 let answer7="";
 let guess1="96";
-let guess2[3]={GOT , BlindSpot, Supernatural };
+var guess2=["GOT" , "BlindSpot", "Supernatural" ];
 let name1 ="";
+let count=0;
 name1 =prompt('what\'s your name ?').toUpperCase();
  
 answer =prompt('Does Mohammad like  coffee, Y OR N ?').toUpperCase();
     if(answer =="Y"){
         console.log("Q1 correct");
-        answer="correct"
+        answer="correct";
+        count++;
     }
     else{
         console.log("Q1 wrong answer");
-        answer="wrong answer"
-
+        answer="wrong answer";
     }
 
 
@@ -27,6 +28,7 @@ answer =prompt('Does Mohammad like  coffee, Y OR N ?').toUpperCase();
     if(answer2 =="Y"){
         console.log("Q2 correct");
         answer2="correct";
+        count++;
     }
     else{
         console.log("Q2 wrong answer");
@@ -38,7 +40,7 @@ answer =prompt('Does Mohammad like  coffee, Y OR N ?').toUpperCase();
     if(answer3 =="Y"){
         console.log("Q3 correct");
         answer3=" correct ";
-
+        count++;
     }
     else{
         console.log("Q3 wrong answer");
@@ -49,7 +51,7 @@ answer =prompt('Does Mohammad like  coffee, Y OR N ?').toUpperCase();
     if(answer4 =="Y"){        
         console.log("Q4 wrong answer");
         answer4="wrong answer"
-
+        count++;
     }
     else{        
         console.log("Q4 correct");
@@ -61,36 +63,52 @@ answer =prompt('Does Mohammad like  coffee, Y OR N ?').toUpperCase();
     if(answer5 =="Y"){
         console.log("Q5 correct");
         answer5="correct"
-
+        count++;
     }
     else{
         console.log("Q5 wrong answer");
         answer5="wrong answer"
     }
 
+
+
+
 let count6=0;
-answer6 =prompt('guess mohammad BD?, Y OR N ?').toUpperCase();
+answer6 =prompt('guess mohammad BD?').toUpperCase();
 for (let i = 0 ; i <3 ; i++ ){
   if (answer6 === guess1){
-   break; 
- 
+    count++;
+    break; 
   }
-	}
+  else{
+    alert(`wrong answer \nNumber of attempts ${i-count6} `);
+    answer6 =prompt('guess mohammad BD?').toUpperCase();
+  
+}
+}
+
+
+
 
 let count7=0;
-answer7 =prompt('guess one of mohammad favorit film BD?, Y OR N ?').toUpperCase();
+answer7 =prompt('guess one of mohammad favorit film').toUpperCase();
 for (let i = 0 ; i <6 ; i++ ){
  for (let x = 0 ; x< guess2.length(); x++){
   if (answer7 === guess2[x]){
-   break; 
+    count++;
+    break; 
   }	
   else {
-  }
-	}	
-}
+    alert(`wrong answer \nNumber of attempts ${i-count7} `);
+    answer7 =prompt('guess one of mohammad favorit film').toUpperCase();
 
-alert(`wrong answer \nNumber of attempts ${} `);
+  }
+ }	
+}
+alert(`hello`);
+
 
 
 alert(`Hello  ${name1} \n\n\nQ1  : ${answer} \nQ2  : ${answer2} \nQ3  : ${answer3} \nQ4  : ${answer4} \nQ5  : ${answer5} \n`);
+alert(`correct answer =   ${count} \n\nwronge answer  : ${7-count} \n`);
 
