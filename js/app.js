@@ -16,6 +16,7 @@ let count6=0;
 
 // functions add by reem
 
+
 function getName(){
     name1 =prompt('what\'s your name ?').toUpperCase();
 }
